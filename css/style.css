@@ -1,0 +1,165 @@
+/*===============
+    CSS Reset
+=================*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+/*=====================
+    Formatação geral 
+=======================*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+main {
+    margin: 0vw 20vw 0vw 20vw;
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243d;
+}
+
+/*=============================
+    Formatação topo da página 
+===============================*/
+
+
+header {
+    margin: 0 5vw 3vw 5vw;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li { 
+    margin: 2vw 10px 0 10px;
+}
+
+header nav ul li.atual a {
+    color: #ff6464;
+}
+
+/*===========================
+    Formatação works 
+============================*/
+
+main.works h1 {
+    font-weight: 100;
+    margin: 0 0 0 0;
+}
+main.works section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2vw 0vw 2vw 0vw;
+}
+main.works section:last-child {
+    border: none;
+}
+main.works section p {
+    margin: 1vw 0 1vw 0vw;
+}
+main.works section p span {
+    color: white;
+    background-color: #ff6464;
+    border-radius: 35px;
+    padding: 2px 0.4vw 2px 0.4vw;
+    font-weight: bold ;
+}
+/*===========================
+    Formatação home page 
+============================*/
+
+section.banner {
+    display: flex;
+    margin: 6vw 0vw 3vw 0vw;
+}
+section.banner h1 {
+    font-size: 2rem;
+}
+section.banner p {
+    margin: 2vw 4vw 2vw 0vw;
+}
+section.banner button {
+    background: #ff6464;
+    color: white;
+    font-size: 1rem;
+    padding: 7px 19px 7px 19px;
+    border-radius: 2px;
+}
+section.rt-post {
+    background: #edf7fa;
+    padding: 2vw 1vw 4.5vw 1vw;
+}
+section.rt-post h2 {
+    font-weight: 100;
+    margin: 0 0 2.5vw 0;
+}
+section.rt-post ul {
+    display: flex;
+}
+section.rt-post ul li {
+    background: white;
+    padding: 1.5vw 10px 15px 10px;
+    margin: 0 2vw 0 0;
+}
+section.rt-post ul li:last-child {
+    margin: 0;
+}
+section.rt-post ul li p {
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+section.rt-post ul li h3 {
+    margin: 0.5vw 4vw 2vw 0;
+}
+section.ft-works h2 {
+    font-weight: 100;
+    margin: 3vw 0 2.5vw 0;
+}
+section.ft-works > div {
+    display: flex;
+}
+section.ft-works div h3 {
+    margin: 1.5vw 0 1.5vw 0;
+}
+section.ft-works div p {
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+section.ft-works div p span {
+    background: #142850;
+    color: white;
+    font-weight: bold;
+    padding: 4px 15px 4px 15px;
+    border-radius: 2vw;
+}
+section.ft-works div p.pft {
+    color: #8695A4;
+}
+/*===========================
+    Formatação do rodapé
+============================*/
+
+footer {
+        text-align: center;
+        padding: 0 0 2vw 0;
+}
+footer nav ul {
+        display: flex;
+        justify-content: center;
+}
+footer nav ul li {
+    margin: 0 5px 5px 5px;
+    font-size: 1rem;
+}
+footer nav ul li a span {
+    color: #21243d;
+}
